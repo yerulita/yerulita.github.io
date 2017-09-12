@@ -129,7 +129,7 @@ section h4.section-subheading {
 
 
 /*  .navbar-default{ */
- #colorNavbar { */
+ #colorNavbar { 
     background-color: white ;
     border-bottom: 1px solid #dddbdb;
     font-family: Montserrat, sans-serif;
@@ -154,6 +154,18 @@ section h4.section-subheading {
     background-color:transparent !important;
 }
 
+
+@media (min-width: 768px) {
+  #colorNavbar { 
+    background-color: white ;
+    border-bottom: 1px solid #dddbdb;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px !important;
+    text-transform: uppercase;
+  }
+  }
+  
+  
 header {
 /*   background-image: url('../img/TSAMFW.jpg'); */
   background-image: url('../img/MG_0051.jpg');
