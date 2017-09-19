@@ -273,7 +273,7 @@ font-size: 1.5em;
     float: left;
     height: 50px;
 /*     padding: 15px; */
-padding: 17px 10px 15px 10px;
+padding: 17px 15px 15px 5px;
     font-size: 15px;
     line-height: 10px;
 /*     color: #4099FF; */
@@ -283,7 +283,7 @@ color: white;
     float: left;
     height: 50px;
 /*     padding: 15px; */
-padding: 17px 15px 15px 5px;
+padding: 17px 10px 15px 10px;
     font-size: 15px;
     line-height: 10px;
 /*     color: #3b5998; */
@@ -292,7 +292,7 @@ padding: 17px 15px 15px 5px;
 }
 
 @media (min-width: 768px) {
-.LinkTwitter {
+.LinkFacebook {
 /*     float: left; */
 /*     height: 50px; */
 /* /*     padding: 15px; */ */
