@@ -172,9 +172,10 @@ color: white;
 /*   color:#d5d5d5; */
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
     position: absolute;
-    width: 100%;
+/*     width: 100%; */
     left: 0;
     top: 15;
+    padding-left: 100px;
     text-align: center;
     margin: auto;
 }
@@ -252,6 +253,14 @@ font-size: 1.5em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    
+        position: absolute;
+    width: 100%;
+    left: 0;
+    top: 15;
+    
+    text-align: center;
+    margin: auto;
   }
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
