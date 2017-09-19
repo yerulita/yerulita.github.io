@@ -12,7 +12,8 @@ body {
   color: #777777;
 }
 .text-primary {
-  color: #fed136;
+/*   color: #fed136; */
+  color: white
 }
 p {
 /*   font-size: 14px; */
@@ -30,7 +31,8 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+/*   color: #fed136; */
+  color: white
 }
 a:hover,
 a:focus,
@@ -171,25 +173,51 @@ font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 color: white;
 /*   color:#d5d5d5; */
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-    position: absolute;
-
-    left: 0;
-    top: 15;
-    padding-left: 100px;
-    text-align: center;
-    margin: auto;
+/*     position: absolute; */
+/* /*     width: 100%; */ */
+/*     left: 0; */
+/*     top: 15; */
+/*     padding-left: 100px; */
+/*     text-align: center; */
+/*     margin: auto; */
 }
 
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus {
-/*  color: #fed136; */
- color: white;
-}
-.navbar-custom .navbar-brand:active,
-.navbar-custom .navbar-brand.active {
-/*   color: #fec503; */
+
+
+   .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+        text-align: center;
+/*         color: white; */
+        
+    }
+/*     .navbar>.container .navbar-brand-centered,  */
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+
+.navbar-brand-centered :hover,
+.navbar-brand-centered :focus,
+.navbar-brand-centered :active,
+.navbar-brand-centered.active{
 color: white;
+ text-decoration: none;
 }
+/* a:link { */
+/*     text-decoration: none; */
+/* } */
+/* .navbar-custom .navbar-brand:hover, */
+/* .navbar-custom .navbar-brand:focus, */
+/* .navbar-custom .navbar-brand:active, */
+/* .navbar-custom .navbar-brand.active { */
+/* color: white; */
+/* } */
+
+
+
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
@@ -249,18 +277,17 @@ color: white;
   .navbar-custom .navbar-brand {
 /*     font-size: 2em; */
 /* color: white; */
-font-size: 1.5em;
+font-size: 2.0em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     
-        position: absolute;
-    width: 100%;
-    left: 0;
-    top: 15;
-    
-    text-align: center;
-    margin: auto;
+/*     position: absolute; */
+/*     width: 100%; */
+/*     left: 0; */
+/*     top: 15; */
+/*     text-align: center; */
+/*     margin: auto; */
   }
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
