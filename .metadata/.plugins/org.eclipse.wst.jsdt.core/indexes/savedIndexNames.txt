@@ -1,0 +1,1 @@
+INDEX VERSION 1.3+/home/germi/Documents/catu/catugit/yerulita.github.io/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes

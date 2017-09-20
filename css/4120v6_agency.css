@@ -166,6 +166,7 @@ font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-color: transparent;
   text-transform: uppercase;
     font-weight: 700;
+    font-size: 11px;
 /*   border: none; */
 }
 
@@ -228,7 +229,7 @@ color: white;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
-  font-size: 12px;
+/*   font-size: 12px; */
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
@@ -265,7 +266,16 @@ color: white;
 /*   background-color: #fec503; */
   background-color: transparent;
 }
-@media (min-width: 768px) {
+
+@media screen and (max-width: 1450px) and (min-width: 992px) {
+/* @media (min-width: 992px)  { */
+   .navbar-brand-centered {
+      left: 25%;
+    }
+}
+
+@media (min-width: 992px) {
+/* @media (min-width: 768px) { */
   .navbar-custom {
     background-color: transparent;
     padding: 25px 0;
@@ -293,7 +303,8 @@ font-size: 2.0em;
     border-radius: 3px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
+/* @media (min-width: 768px) { */
   .navbar-custom.affix {
     background-color: #2C3E50;
 /* 	background-color: #4C2A2A; */
@@ -303,6 +314,43 @@ font-size: 2.0em;
   .navbar-custom.affix .navbar-brand {
     font-size: 1.2em;
   }
+}
+
+@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
 }
 
 
@@ -407,9 +455,11 @@ section h3.section-subheading {
 /*   font-style: italic; */
   font-weight: 700;
   margin-top: 25px;
+  
 }
  section p.section-text {
  	text-align: justify;
+ 	font-size: 14px;
   }
  
 @media (min-width: 768px) {
