@@ -23,6 +23,7 @@
 
     <!-- Theme CSS -->
     <link href="css/4120v6_agency.css" rel="stylesheet">
+    <link href="css/4120v6_navbar.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,9 +32,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
     <![endif]-->
 
-<style>
 
-</style>
 </head>
 
 <body id="page-top" class="index">
@@ -82,20 +81,27 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                 <ul class="nav navbar-nav navbar-right">
+                 <ul class="nav navbar-nav pull-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
 					<li><a class="page-scroll" href="#page-top">Home</a></li>
 					<li><a class="page-scroll" href="#company">Compagnie</a></li>
-                    <li><a class="page-scroll" href="#shows">Creations</a></li>
+<!--                     <li><a class="page-scroll" href="#shows">Creations</a></li> -->
+                    <li class="dropdown">
+<!-- 	                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Creations <span class="caret"></span></a> -->
+	          			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Creations<span class="caret"></span></a>
+	          			<ul class="dropdown-menu" role="menu">
+								<li><a class="page-scroll" href="#TSAMFW">These Shoes Are Made For Walking</a></li>
+								<li><a class="page-scroll" href="#TCV">Troisième Cercle Variations</a></li>
+								<li><a class="page-scroll" href="#IDC">Instant De Chute</a></li>
+							</ul>
+					</li>
                     <li><a class="page-scroll" href="#news">Actualites</a></li>
                     <li><a class="page-scroll" href="#contact">Contact</a> </li>
                     <li class="dropdown">
 	                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">FR <span class="caret"></span></a>
 	          			<ul class="dropdown-menu" role="menu">
-<!-- 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">  FR<b class="caret"></b></a> -->
-<!-- 							<ul class="dropdown-menu"> -->
 								<li><a href="">EN</a></li>
 								<li><a href="">AR</a></li>
 								<li><a href="">ES</a></li>
@@ -175,7 +181,7 @@
 
 <!--     Shows Section -->
 <section id="shows"  class="bg-light-gray">
-	<div id="TSMW"class="container">
+	<div id="TSAMFW" class="container">
     	<div class="row">
         	<div class="col-lg-12 ">	
 				<h2 class="section-heading">Creations</h2>
