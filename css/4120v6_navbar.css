@@ -401,6 +401,14 @@ section h4.section-subsubheading {
   }
 }
 
+.page-header { border-bottom:none; }
+
+/* .example-content-aligned{ */
+/* 	margin: auto; */
+/*     width: 100%; */
+/*     padding: 10px;} */
+
+
 
 #shows .shows-item {
   margin-top: 10px;
