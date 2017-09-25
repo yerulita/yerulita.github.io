@@ -59,6 +59,7 @@ letter-spacing: 1px;
 .navbar-default .navbar-nav > li > a:focus {
 	color: #ffffff;
 	outline: none;
+/* 	background-color: #2f3b6b; */
 }
 
 .navbar.navbar-default .dropdown-menu > li > a {
@@ -72,6 +73,8 @@ font-weight: 500;
 .navbar-default .navbar-nav > li > .dropdown-menu {
 /*   background-color: #2f3b6b; */
 	background-color: #2C3E50;
+/* 	border-color: red; */
+	
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
 	color: #d5d5d5;
@@ -91,8 +94,8 @@ font-weight: 500;
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
 	color: #ffffff;
-/* 	background-color: #2C3E50; */
-	background-color: transparent;
+	background-color: #2C3E50;
+/* 	background-color: transparent; */
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -106,7 +109,8 @@ font-weight: 500;
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
 	color: #ffffff;
-	background-color: #2C3E50;
+/* 	background-color: #2C3E50; */
+background-color: transparent;
 }
 .navbar-default .navbar-toggle {
 	background-color: #2C3E50;
@@ -230,6 +234,10 @@ font-weight: 500;
     .collapse.in{
   		display:block !important;
 	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a {
+  	background-color: #2C3E50;
+  	color: white;
+}
 }
 
 /* ---------- */
@@ -241,7 +249,12 @@ padding: 17px 15px 15px 30px;
     font-size: 15px;
     line-height: 10px;
     color: white;
+    
 }
+
+
+
+
 .LinkTwitter {
     float: left;
     height: 50px;
@@ -343,7 +356,7 @@ section h2.section-heading {
   margin-bottom: 15px;
 }
 section h3.section-subheading {
-  font-size: 16px;
+  font-size: 18px;
 /*   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; */
 /*   text-transform: none; */
 /*   font-style: italic; */
@@ -351,9 +364,18 @@ section h3.section-subheading {
   margin-top: 25px;
   
 }
+section h4.section-subsubheading {
+  font-size: 16px;
+/*   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+/*   text-transform: none; */
+/*   font-style: italic; */
+  font-weight: 700;
+  margin-top: 25px;
+}
+
  section p.section-text {
  	text-align: justify;
- 	font-size: 14px;
+ 	font-size: 15px;
   }
  
 @media (min-width: 768px) {
@@ -367,9 +389,16 @@ section h3.section-subheading {
   padding-bottom: 50px;
   }
   section h3.section-subheading {
-  font-size: 20px;
+  font-size: 26px;
   margin-top: 0px;
 }
+section h4.section-subsubheading {
+  font-size: 22px;
+  margin-top: 0px;
+}
+ section p.section-text {
+ 	font-size: 18px;
+  }
 }
 
 
@@ -384,7 +413,7 @@ section h3.section-subheading {
     margin-top: 50px;
   }
   
-  #shows .shows-name {
-  margin-top: 100px;
-}
+/*   #shows .shows-name { */
+/*   margin-top: 50px; */
+/* } */
 }
