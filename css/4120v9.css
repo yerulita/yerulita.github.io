@@ -1,7 +1,8 @@
 /*!
  * 4120[point]CORPS
  * Copyright 2017 4120.corps
- */
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+/
  
 body {
   overflow-x: hidden;
@@ -32,7 +33,7 @@ a.active {
 }
 a {
 /*   color: #fed136; */
-  color: white
+  color: white;
 }
 a:hover,
 a:focus,
@@ -53,10 +54,19 @@ h6 {
 .img-centered {
   margin: 0 auto;
 }
- 
+
+.bg-light-gray {
+  background-color: #eeeeee;
+}
+.bg-darkest-gray {
+  background-color: #222222;
+}
 
 .navbar-custom {
-	background-color: #2C3E50;
+/* 	background-color: #2C3E50; */
+/*   background-color: #eeeeee; */
+/*     background-color: #d23a59; */
+        background-color: #ff00e1;
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	border-color: transparent;
 	text-transform: uppercase;
@@ -102,11 +112,10 @@ h6 {
 /* } */
 
 .navbar-default .navbar-text {
-/* 	color: #d5d5d5; */
-	
+  color: #494949;
 }
 .navbar-default .navbar-nav > li > a {
-	color: #d5d5d5;
+	color: #494949; 
 /* font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; */
 /* text-transform: uppercase; */
 /* font-weight: 600; */
@@ -114,13 +123,14 @@ letter-spacing: 1px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #ffffff;
+	color: black;
 	outline: none;
 /* 	background-color: #2f3b6b; */
 }
 
 .navbar.navbar-default .dropdown-menu > li > a {
-	color: #d5d5d5;  
+
+	color: #494949;  
 font-weight: 500;
 	font-size: 12px;
 	
@@ -128,18 +138,20 @@ font-weight: 500;
 
 
 .navbar-default .navbar-nav > li > .dropdown-menu {
-/*   background-color: #2f3b6b; */
-	background-color: #2C3E50;
+/* 	background-color: #2C3E50; */
+    background-color: #ff00e1;
 /* 	border-color: red; */
+
 	
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-	color: #d5d5d5;
+/* 	color: #d5d5d5; */
+color: #494949;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #ffffff;
-
+/*   color: #ffffff; */
+	color:black;
   background-color: transparent;  
 /*   background-color: #2C3E50; */
 }
@@ -150,14 +162,17 @@ font-weight: 500;
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-	color: #ffffff;
-	background-color: #2C3E50;
+/* 	color: #ffffff; */
+	color:black;
+/* 	background-color: #2C3E50; */
+    background-color: #ff00e1;
 /* 	background-color: transparent; */
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #ffffff;
+/* 	color: #ffffff; */
+	color:black;
 /* 	background-color: #2C3E50; */
 	background-color: transparent;
 	border-radius: 0;
@@ -165,12 +180,14 @@ font-weight: 500;
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-	color: #ffffff;
+/* 	color: #ffffff; */
+	color:black;
 /* 	background-color: #2C3E50; */
 background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-	background-color: #2C3E50;
+/* 	background-color: #2C3E50; */
+    background-color: #ff00e1;
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
   	color: white;
@@ -181,7 +198,7 @@ background-color: transparent;
 	background-color: transparent;
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #ffffff;
+	  background-color: #494949;
 }
 .navbar-default .navbar-collapse {
 	border-color: transparent;
@@ -219,7 +236,8 @@ background-color: transparent;
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-	color: #ffffff;
+/* 	color: #ffffff; */
+	color: black;
 	background-color: transparent;
 /* 		border-color: black; */
 }
@@ -239,20 +257,24 @@ background-color: transparent;
 @media (min-width: 992px) {
 /* @media (min-width: 768px) { */
   .navbar-custom.affix {
-    background-color: #2C3E50;
+	background-color: transparent;/
+/*     background-color: #ff00e1; */
     padding: 0px ;
+
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.2em;
   }
   .navbar-custom.affix  .navbar-nav > li > .dropdown-menu {
-	background-color: #2C3E50;
+/* 	background-color: #2C3E50; */
+    background-color: #ff00e1;
 /* 	border-color: black; */
 }
 
   .navbar-custom.affix .navbar-nav .open .dropdown-menu > .active > a {
-  	background-color: #2C3E50;
-  	color: white;
+/*   	background-color: #2C3E50; */
+    background-color: #ff00e1;
+
 }
 }
 
@@ -292,7 +314,8 @@ background-color: transparent;
   		display:block !important;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a {
-  	background-color: #2C3E50;
+/*   	background-color: #2C3E50; */
+    background-color: #ff00e1;
   	color: white;
 }
 }
@@ -329,22 +352,23 @@ padding: 17px 25px 15px 10px;
   }
 /* ------ */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) { */
 
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #d5d5d5;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffffff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
-    background-color: #2C3E50;
-  }
-}
+/*   .navbar-default .navbar-nav .open .dropdown-menu > li > a { */
+/*     color: #494949; */
+/*   } */
+/*   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, */
+/*   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus { */
+/*     color: #000000; */
+/*   } */
+/*   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, */
+/*   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, */
+/*   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus { */
+/*     color: #000000; */
+/* /*     background-color: #2C3E50; */ */
+/*     background-color: #ff00e1; */
+/*   } */
+/* } */
 
 /* ----------- */
 
@@ -490,4 +514,116 @@ section h4.section-subsubheading {
 /*   #shows .shows-name { */
 /*   margin-top: 50px; */
 /* } */
+}
+
+
+
+
+section#contact {
+  background-color: #222222;
+/*   background-image: url('../img/map-image.png'); */
+/*   background-position: center; */
+  background-repeat: no-repeat;
+}
+section#contact .section-heading {
+  color: white;
+}
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+section#contact .form-group input.form-control {
+  height: auto;
+}
+section#contact .form-group textarea.form-control {
+  height: 236px;
+}
+section#contact .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+/*   color: #eeeeee; */
+  color: black;
+  font-size: 10px!important;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+/*   color: #eeeeee; */
+  color: black;
+  font-size: 10px!important;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+/*   color: #eeeeee; */
+  color: black;
+  font-size: 10px!important;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+/*   color: #eeeeee; */
+  color: black;
+  font-size: 10px!important;
+}
+section#contact .text-danger {
+  color: #e74c3c;
+}
+footer {
+  padding: 25px 0;
+  text-align: center;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+footer ul.quicklinks {
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #fed136;
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
 }
