@@ -206,16 +206,17 @@ background-color: transparent;
 
 
 
-/* social icons start*/
+
 
 .navbar-default .LinkFacebook {
     float: left;
     height: 50px;
-/*     padding: 15px; */
 padding: 17px 10px 15px 10px;
     font-size: 15px;
     line-height: 10px;
- color: #ffffff;
+color: #3B5998; 
+/* background-color: #ffffff; */ */
+
 }
 .navbar-default .LinkFacebook :hover,
 .navbar-default .LinkFacebook :focus {
@@ -229,12 +230,51 @@ padding: 17px 10px 15px 10px;
 padding: 17px 15px 15px 5px;
     font-size: 15px;
     line-height: 10px;
-  color: #ffffff;
+    	color: #4099FF;
+/*   color: #ffffff; */
 }
 .navbar-default .LinkTwitter :hover,
 .navbar-default .LinkTwitter :focus {
     color: #1aa93d;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* social icons end */
@@ -678,43 +718,3 @@ section h4.section-subsubheading {
   }
 }
 
-footer {
-  padding: 25px 0;
-  text-align: center;
-}
-footer span.copyright {
-  line-height: 40px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  text-transform: none;
-}
-footer ul.quicklinks {
-  margin-bottom: 0;
-  line-height: 40px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  text-transform: none;
-}
-ul.social-buttons {
-  margin-bottom: 0;
-}
-ul.social-buttons li a {
-  display: block;
-  background-color: #222222;
-  height: 40px;
-  width: 40px;
-  border-radius: 100%;
-  font-size: 20px;
-  line-height: 40px;
-  color: white;
-  outline: none;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
-/*   background-color: #fed136; */
-  background-color: pink;
-}
