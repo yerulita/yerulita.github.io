@@ -463,8 +463,8 @@ color: #494949;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a {
 /*   	background-color: #2C3E50; */
-    background-color: #ff00e1;
-  	color: white;
+    background-color: #ffffff;
+  	  color:  #000000;
 }
 }
 
