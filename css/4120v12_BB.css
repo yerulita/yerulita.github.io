@@ -1,0 +1,647 @@
+/*  * 4120[point]CORPS */
+/*  * Copyright 2017 4120.corps */
+/*  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE) */
+
+ 
+
+body {
+  overflow-x: hidden;
+/*   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.text-muted {
+  color: #777777;
+}
+.text-primary {
+/*   color: #fed136; */
+  color: white
+}
+p {
+/*   font-size: 14px; */
+  font-size: 20px;
+/*   line-height: 1.75; */
+}
+p.large {
+  font-size: 16px;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+a {
+/*   color: #fed136; */
+  color: white;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: grey;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.img-centered {
+  margin: 0 auto;
+}
+
+.bg-light-gray {
+  background-color: #eeeeee;
+}
+.bg-darkest-gray {
+  background-color: #222222;
+}
+
+
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #cac7c7;
+
+      	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* 	border-color: transparent; */
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+/* .navbar-default .navbar-brand { */
+/*   color: #e71b1b; */
+/* } */
+/* .navbar-default .navbar-brand:hover, */
+/* .navbar-default .navbar-brand:focus { */
+/*   color: #1aa93d; */
+/* } */
+/* .navbar-default .navbar-text { */
+/* /*   color: #e71b1b; */ */
+/* } */
+
+
+
+
+
+
+
+
+/* /* cuando el menu está toogled */ */
+/* @media (max-width: 767px) { */
+/*   .navbar-custom .navbar-nav .open .dropdown-menu > li > a { */
+/*     color: #cac7c7; */
+/*   } */
+/*   .navbar-custom  .navbar-nav .open .dropdown-menu > li > a:hover, */
+/*   .navbar-custom  .navbar-nav .open .dropdown-menu > li > a:focus { */
+/*     color: #cac7c7;; */
+/*   } */
+/*    .navbar-custom  .navbar-nav .open .dropdown-menu > .active > a, */
+/*   .navbar-custom  .navbar-nav .open .dropdown-menu > .active > a:hover, */
+/*   .navbar-custom  .navbar-nav .open .dropdown-menu > .active > a:focus { */
+/*     color: #cac7c7; */
+/*     background-color: #d6a5d0; */
+/*   } */
+/* } */
+
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #494949;
+/*   	letter-spacing: 1px; */
+/*   		font-size: 11px; */
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #494949;
+  	font-weight: 600;
+	font-size: 10px;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+/* .navbar-default .navbar-nav > li > .dropdown-menu > li.divider { */
+/*   background-color: #d6a5d0; */
+/* } */
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a{
+  color: #000000;
+  background-color: #ffffff;	
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #494949;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a{
+  color: #000000;
+  background-color: #ffffff;	
+}
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #494949;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #494949;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+
+/* .navbar-default .navbar-toggle { */
+/*   border-color: #d23a59; */
+/* } */
+/* .navbar-default .navbar-toggle:hover, */
+/* .navbar-default .navbar-toggle:focus { */
+/*   background-color: #b12844; */
+/*   color: #fff; */
+/* } */
+/* .navbar-default .navbar-toggle .icon-bar { */
+/*   background-color: #fff; */
+/* } */
+
+
+
+
+
+
+
+.navbar-default .navbar-toggle:hover {
+/* .navbar-default .navbar-toggle:focus { */
+/*   color: #494949; */
+  background-color: #ffffff;
+  border-color: #000000;
+}
+
+
+.navbar-default .navbar-toggle:focus {
+/*   color: #494949; */
+  background-color: #ffffff;
+  border-color: #000000;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+  color: #000000;
+    background-color: #000000;
+}
+/* .navbar-default .navbar-toggle:hover .icon-bar { */
+/*   background-color: #ffffff; */
+/* /*       color: red; */ */
+/* } */
+
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  color: #000000;
+    background-color: #ffffff;
+}
+/* .navbar-default .navbar-link { */
+/*   color: #e71b1b; */
+/* } */
+/* .navbar-default .navbar-link:hover { */
+/*   color: #1aa93d; */
+/* } */
+
+.navbar-default .LinkFacebook {
+    float: left;
+    height: 50px;
+/*     padding: 15px; */
+padding: 17px 10px 15px 10px;
+    font-size: 15px;
+    line-height: 10px;
+  color: #494949;
+}
+.navbar-default .LinkFacebook :hover,
+.navbar-default .LinkFacebook :focus {
+ color: #000000;
+}
+
+.navbar-default .LinkTwitter {
+    float: left;
+    height: 50px;
+/*     padding: 15px; */
+padding: 17px 15px 15px 5px;
+    font-size: 15px;
+    line-height: 10px;
+  color: #494949;
+}
+.navbar-default .LinkTwitter :hover,
+.navbar-default .LinkTwitter :focus {
+ color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------ */
+/* @media (min-width: 1200px) { */
+/* @media (min-width: 768px) { */
+@media (min-width: 992px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+
+.navbar-default .LinkTwitter {
+/*   color: #ffffff; */
+  color: #cac7c7; 
+}
+.navbar-default .LinkFacebook {
+/*   color: #ffffff;  */
+   color: #cac7c7;    
+}
+
+.navbar-default .navbar-nav > .active > a{
+  color:  #ffffff;
+    background-color: transparent;	
+}
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color:  #ffffff; 
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+/*  color: #ffffff; */
+   color: #cac7c7; 
+  font-size: 11px; 
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color:  #ffffff;
+}
+ 
+.navbar-default .navbar-nav > li > .dropdown-menu {
+	background-color: transparent;
+}
+
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	color: #ffffff;
+/* 	color: yellow; */
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #cac7c7; 
+/*   color:  #ffffff; */
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color:  #ffffff;
+/*    color: #cac7c7;  */
+  background-color: transparent;
+}
+/* .navbar-default .navbar-nav > li > .dropdown-menu > li.divider { */
+/*   background-color: #d6a5d0; */
+/* } */
+/* .navbar-default .navbar-nav .open .dropdown-menu > .active > a{ */
+/*   color: #000000; */
+/*   background-color: #ffffff;	 */
+/* } */
+/* .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, */
+/* .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus { */
+/*   color: #494949; */
+/*   background-color: #ffffff; */
+/* } */
+
+/* .navbar-custom .navbar-brand { */
+/* /*     font-size: 2em; */ */
+/* /* color: white; */ */
+/* 	font-size: 2.0em; */
+/*     -webkit-transition: all 0.3s; */
+/*     -moz-transition: all 0.3s; */
+/*     transition: all 0.3s; */
+/*  } */
+/* .navbar-custom .navbar-nav > .active > a { */
+/* 	border-radius: 3px; */
+
+/*   } */
+
+
+
+
+
+
+
+ }
+/* @media (min-width: 1200px) { */
+@media (min-width: 992px) {
+/* @media (min-width: 768px) { */
+  .navbar-custom.affix {
+	background-color: #ffffff;
+/* 	  border:red; */
+    padding: 0px ;
+
+  }
+  
+  .navbar-custom.affix  .LinkTwitter {
+  color: #494949;
+}
+  .navbar-custom.affix .LinkFacebook {
+  color: #494949;    
+}
+  
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.2em;
+  }
+ 
+ 
+  .navbar-custom.affix .navbar-nav > .active > a{
+  color: #000000;
+	background-color: transparent;	
+}
+  .navbar-custom.affix .navbar-nav > .active > a:hover,
+  .navbar-custom.affix  .navbar-nav > .active > a:focus {
+  color: #000000;
+	background-color: transparent;	
+}
+
+  .navbar-custom.affix  .navbar-nav > li > a {
+color: #494949;
+  font-size: 11px; */
+}
+  .navbar-custom.affix .navbar-nav > li > a:hover,
+  .navbar-custom.affix t .navbar-nav > li > a:focus {
+  color: #000000;
+}
+ 
+/* background del título del dropdown-menu desplegado/ */
+ .navbar-custom.affix .navbar-nav > .open > a,
+ .navbar-custom.affix .navbar-nav > .open > a:hover,
+ .navbar-custom.affix .navbar-nav > .open > a:focus {
+/* 	color: #ffffff; */
+  color:  #000000;
+	background-color: transparent;
+}
+
+/* color-font dropdown-menu desplegado */
+ .navbar-custom.affix .navbar-nav > li > .dropdown-menu > li > a {
+/*   color:    #d1cecd  */
+ color: #494949;
+}
+/* hover del dropdown-menu desplegado */
+ .navbar-custom.affix .navbar-nav > li > .dropdown-menu > li > a:hover,
+ .navbar-custom.affix .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color:  #000000;
+  background-color: #ffffff;
+}
+ 
+/* border-color dropdown-menu activo */
+  .navbar-custom.affix  .navbar-nav > li > .dropdown-menu {
+  background-color: #ffffff;
+	border-color:  #cac7c7; 
+}
+
+/* background-color dropdown-menu activo */
+.navbar-custom.affix .navbar-nav .open .dropdown-menu > .active > a { 
+     background-color: #ffffff;
+
+ }
+}
+
+@media (max-width: 992px) {
+/* 	@media (max-width: 768px) { */
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a {
+/*   	background-color: #2C3E50; */
+    background-color: #ffffff;
+  	  color:  #000000;
+}
+}
+
+
+
+
+
+header {
+  background-image: url('../img/4120_background.jpg');
+/*     background-image: url('../img/catu1.gif'); */
+  
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+header .intro-text {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+header .intro-text .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header .intro-text .intro-heading {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 35px;
+  line-he0ight: 35px;
+  margin-bottom: 65px;
+}
+@media (min-width: 768px) {
+  header{
+  text-align: left;
+  }
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 300px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
+}
+/* header ends */
+
+/* section begins */
+
+ section {
+  padding: 40px 0;
+}
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+section h3.section-subheading {
+  font-size: 18px;
+/*   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+/*   text-transform: none; */
+/*   font-style: italic; */
+  font-weight: 700;
+  margin-top: 25px;
+  text-align: center;
+  
+}
+section h4.section-subsubheading {
+  font-size: 16px;
+/*   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+/*   text-transform: none; */
+/*   font-style: italic; */
+  font-weight: 700;
+  margin-top: 25px;
+  text-align: center;
+}
+
+ section p.section-text {
+ 	text-align: justify;
+ 	font-size: 15px;
+  }
+ 
+@media (min-width: 768px) {
+  section {
+    padding: 130px 0;
+  }
+/*  section h3.section-subheading { */
+/*   margin-top: 35px; */
+/*   } */
+  section h2.section-heading{
+  padding-bottom: 50px;
+  text-align: left;
+  }
+  section h3.section-subheading {
+  font-size: 26px;
+  margin-top: 0px;
+  text-align: left;  
+}
+section h4.section-subsubheading {
+  font-size: 22px;
+  margin-top: 0px;
+  text-align: left;  
+}
+ section p.section-text {
+ 	font-size: 18px;
+  }
+}
+
+.page-header { border-bottom:none; }
+
+/* .example-content-aligned{ */
+/* 	margin: auto; */
+/*     width: 100%; */
+/*     padding: 10px;} */
+
+
+
+#shows .shows-item {
+  margin-top: 10px;
+}
+
+
+
+@media (min-width: 768px) {
+  #shows .shows-item {
+    margin-top: 50px;
+  }
+  
+/*   #shows .shows-name { */
+/*   margin-top: 50px; */
+/* } */
+}
+
+
+
+
+
+/* section ends */

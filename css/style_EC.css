@@ -1,0 +1,209 @@
+.main {
+  background-position: center center;
+  background-size: cover;
+  height: auto;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+  width: auto;
+}
+@media (max-width: 991px) {
+  .main {
+    padding: 20px;
+  }
+}
+.main .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  z-index: 1;
+}
+.main .container {
+  position: relative;
+  z-index: 2;
+}
+.main #video-background {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  overflow: hidden;
+  background-image: url('../img/video-bg.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+.main p.social {
+  text-align: center;
+  margin-top: 20px;
+}
+.main p.social a {
+  margin: 0 10px 0 0;
+  color: #fff;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  line-height: 26px;
+  font-size: 15px;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  vertical-align: bottom;
+}
+.main p.social a i {
+  vertical-align: bottom;
+  line-height: 26px;
+}
+.main p.social a.facebook {
+  background-color: #4460ae;
+}
+.main p.social a.gplus {
+  background-color: #c21f25;
+}
+.main p.social a.twitter {
+  background-color: #3cf;
+}
+.main p.social a.instagram {
+  background-color: #cd4378;
+}
+.main p.social a.email {
+  background-color: #4a7f45;
+}
+@media (max-width: 991px) {
+  .main p.social {
+    text-align: center;
+  }
+}
+.main .cursive {
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-size: 60px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 0.13em;
+}
+@media (max-width: 991px) {
+  .main .cursive {
+    font-size: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .main .cursive {
+    font-size: 30px;
+  }
+}
+.main .sub {
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+}
+@media (max-width: 991px) {
+  .main .sub {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .main .sub {
+    font-size: 20px;
+  }
+}
+.main .countdown {
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+.main .countdown-label {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 300;
+}
+.main .countdown-number {
+  font-size: 124px;
+  line-height: 1;
+  font-weight: 200;
+}
+@media (max-width: 991px) {
+  .main .countdown-number {
+    font-size: 30px;
+  }
+}
+
+
+/* /* scaffolding */ */
+/* body { */
+/*   font-family: 'Source Sans Pro', sans-serif; */
+/*   font-size: 14px; */
+/*   line-height: 1.42857143; */
+/*   color: #555555; */
+/*   background-color: #ffffff; */
+/* } */
+/* a { */
+/*   color: #4fbfa8; */
+/*   text-decoration: none; */
+/* } */
+/* a:hover, */
+/* a:focus { */
+/*   color: #348e7b; */
+/*   text-decoration: underline; */
+/* } */
+/* a:focus { */
+/*   outline: thin dotted; */
+/*   outline: 5px auto -webkit-focus-ring-color; */
+/*   outline-offset: -2px; */
+/* } */
+/* .img-rounded { */
+/*   border-radius: 6px; */
+/* } */
+/* hr { */
+/*   margin-top: 20px; */
+/*   margin-bottom: 20px; */
+/*   border: 0; */
+/*   border-top: 1px solid #eeeeee; */
+/* } */
+
+/* /* type */ */
+/* h1, */
+/* h2, */
+/* h3, */
+/* h4, */
+/* h5, */
+/* h6, */
+/* .h1, */
+/* .h2, */
+/* .h3, */
+/* .h4, */
+/* .h5, */
+/* .h6 { */
+/*   font-family: 'Source Sans Pro', sans-serif; */
+/*   font-weight: 700; */
+/*   line-height: 1.2; */
+/*   color: #ffffff; */
+/* } */
+/* h1, */
+/* .h1, */
+/* h2, */
+/* .h2, */
+/* h3, */
+/* .h3 { */
+/*   margin-top: 20px; */
+/*   margin-bottom: 20px; */
+/* } */
+/* p { */
+/*   margin: 0 0 10px; */
+/* } */
+
