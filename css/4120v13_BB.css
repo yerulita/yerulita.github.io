@@ -228,7 +228,16 @@ padding: 17px 10px 15px 10px;
     font-size: 15px;
     line-height: 10px;
   color: #494949;
+/* } */
+
+
+
+/*   width: 26px; */
+/*   height: 26px; */
+/* /*   border-radius: 13px; */ */
+/*   line-height: 26px; */
 }
+
 .navbar-default .LinkFacebook :hover,
 .navbar-default .LinkFacebook :focus {
  color: #000000;
@@ -257,6 +266,65 @@ padding: 17px 15px 15px 5px;
 
 
 
+/* --------------- */
+
+
+.main {
+
+  padding-top: 10px;
+  padding-left: 10px;
+}
+@media (min-width: 992px) {
+  .main {
+    padding: 10px;
+  }
+}
+
+
+.main p.social {
+  text-align: left;
+  margin-top: 0px;
+}
+.main p.social a {
+  margin: 0 10px 0 0;
+  color: #fff;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  line-height: 26px;
+  font-size: 15px;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  vertical-align: bottom;
+}
+.main p.social a i {
+  vertical-align: bottom;
+  line-height: 26px;
+}
+.main p.social a.facebook {
+  background-color: #4460ae;
+}
+.main p.social a.gplus {
+  background-color: #c21f25;
+}
+.main p.social a.twitter {
+  background-color: #3cf;
+}
+.main p.social a.instagram {
+  background-color: #cd4378;
+}
+.main p.social a.email {
+  background-color: #4a7f45;
+}
+/* @media (max-width: 991px) { */
+/*   .main p.social { */
+/*     text-align: left; */
+/*    } */
+/* } */
+/* ---------------- */
 
 
 
