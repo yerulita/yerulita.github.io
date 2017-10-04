@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/germi/Documents/catu/catugit/yerulita.github.io/4120_git_project"/>
+		<item value="/home/germi/Documents/catu/catugit/yerulita.github.io"/>
+		<item value="/home/germi/Documents/catu/catugit"/>
+	</list>
 	<section name="NewWizardAction">
 		<item value="org.eclipse.wst.web.ui.internal.wizards.SimpleWebProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">

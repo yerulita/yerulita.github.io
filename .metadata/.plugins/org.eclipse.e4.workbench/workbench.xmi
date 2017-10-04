@@ -275,7 +275,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_qMzmkJ1zEeezc51Z9r3mzw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_OzaKgKdNEee1zJy6xOSrhA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_ptz9qJ1zEeezc51Z9r3mzw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_O54pAKjZEeeUTMhIQmW8-Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_ptz9qJ1zEeezc51Z9r3mzw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_qM0NoJ1zEeezc51Z9r3mzw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -302,7 +302,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_qM0NpJ1zEeezc51Z9r3mzw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Ozd04KdNEee1zJy6xOSrhA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_ptzWeZ1zEeezc51Z9r3mzw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_O5-voKjZEeeUTMhIQmW8-Q" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_ptzWeZ1zEeezc51Z9r3mzw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_qM00sJ1zEeezc51Z9r3mzw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -956,6 +956,19 @@
   <bindingTables xmi:id="_qae2M51zEeezc51Z9r3mzw" bindingContext="_qae2Mp1zEeezc51Z9r3mzw"/>
   <bindingTables xmi:id="_qae2NZ1zEeezc51Z9r3mzw" bindingContext="_qae2NJ1zEeezc51Z9r3mzw"/>
   <bindingTables xmi:id="_qafdQZ1zEeezc51Z9r3mzw" bindingContext="_qafdQJ1zEeezc51Z9r3mzw"/>
+  <bindingTables xmi:id="_OZWHwKjZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.texEditorScope" bindingContext="_OYmg4KjZEeeUTMhIQmW8-Q">
+    <bindings xmi:id="_OZX88KjZEeeUTMhIQmW8-Q" keySequence="ALT+C" command="_OYfMIajZEeeUTMhIQmW8-Q"/>
+    <bindings xmi:id="_OZbAQKjZEeeUTMhIQmW8-Q" keySequence="CTRL+SHIFT+7" command="_OYfzOajZEeeUTMhIQmW8-Q"/>
+    <bindings xmi:id="_OZcOYKjZEeeUTMhIQmW8-Q" keySequence="CTRL+SHIFT+6" command="_OYfzPKjZEeeUTMhIQmW8-Q"/>
+    <bindings xmi:id="_OZdcgKjZEeeUTMhIQmW8-Q" keySequence="CTRL+5" command="_OYfzOKjZEeeUTMhIQmW8-Q"/>
+    <bindings xmi:id="_OZeDkKjZEeeUTMhIQmW8-Q" keySequence="CTRL+4" command="_OYfMIqjZEeeUTMhIQmW8-Q"/>
+    <bindings xmi:id="_OZeDkajZEeeUTMhIQmW8-Q" keySequence="F3" command="_OYfzNKjZEeeUTMhIQmW8-Q"/>
+    <bindings xmi:id="_OZfRsKjZEeeUTMhIQmW8-Q" keySequence="CTRL+SHIFT+P" command="_OYfzO6jZEeeUTMhIQmW8-Q"/>
+    <bindings xmi:id="_OZfRsajZEeeUTMhIQmW8-Q" keySequence="CTRL+I" command="_OYfMIKjZEeeUTMhIQmW8-Q"/>
+    <bindings xmi:id="_OZf4wKjZEeeUTMhIQmW8-Q" keySequence="ALT+X" command="_OYfzOqjZEeeUTMhIQmW8-Q"/>
+    <bindings xmi:id="_OZjjIKjZEeeUTMhIQmW8-Q" keySequence="ESC CTRL+5" command="_OYfzMajZEeeUTMhIQmW8-Q"/>
+    <bindings xmi:id="_OZl_YKjZEeeUTMhIQmW8-Q" keySequence="ESC Q" command="_OYfzNqjZEeeUTMhIQmW8-Q"/>
+  </bindingTables>
   <rootContext xmi:id="_ptFktJ1zEeezc51Z9r3mzw" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">
     <children xmi:id="_ptFktZ1zEeezc51Z9r3mzw" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">
       <children xmi:id="_ptFktp1zEeezc51Z9r3mzw" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.platform" name="%bindingcontext.name.bindingView"/>
@@ -999,6 +1012,7 @@
         </children>
         <children xmi:id="_pt9uqZ1zEeezc51Z9r3mzw" elementId="org.eclipse.jdt.ui.propertiesEditorScope" name="Editing Properties Files" description="Editing Properties Files Context"/>
         <children xmi:id="_pt9uq51zEeezc51Z9r3mzw" elementId="org.eclipse.jst.jsf.facesconfig.editorContext" name="In Faces Config Editor" description="Key binding context when using the Faces Config Editor"/>
+        <children xmi:id="_OYmg4KjZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.texEditorScope" name="Editing Latex Source"/>
       </children>
       <children xmi:id="_pt9udJ1zEeezc51Z9r3mzw" elementId="org.eclipse.compare.compareEditorScope" name="Comparing in an Editor" description="Comparing in an Editor"/>
       <children xmi:id="_pt9udp1zEeezc51Z9r3mzw" elementId="com.python.pydev.contexts.window" name="PyDev view" description="PyDev view (PyUnit, PyOutline, etc)."/>
@@ -1678,6 +1692,18 @@
     <persistedState key="originalCompatibilityViewBundle" value="org.python.pydev.debug"/>
     <tags>View</tags>
     <tags>categoryTag:PyDev</tags>
+  </descriptors>
+  <descriptors xmi:id="_OfgaIKjZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.TableView" label="LaTeX Table View" iconURI="platform:/plugin/net.sourceforge.texlipse/icons/tableview.gif" tooltip="" category="TeXlipse" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="net.sourceforge.texlipse.tableview.views.TexTableView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="net.sourceforge.texlipse"/>
+    <tags>View</tags>
+    <tags>categoryTag:TeXlipse</tags>
+  </descriptors>
+  <descriptors xmi:id="_OfiPUKjZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.FullOutline" label="Full Latex Outline" iconURI="platform:/plugin/net.sourceforge.texlipse/icons/outline_co.gif" tooltip="" category="TeXlipse" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="net.sourceforge.texlipse.treeview.views.TexOutlineTreeView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="net.sourceforge.texlipse"/>
+    <tags>View</tags>
+    <tags>categoryTag:TeXlipse</tags>
   </descriptors>
   <menuContributions xmi:id="_ptFkuJ1zEeezc51Z9r3mzw" elementId="org.eclipse.ui.window.customizePerspective" contributorURI="platform:/plugin/org.eclipse.platform" positionInParent="popup:toolbar">
     <children xsi:type="menu:HandledMenuItem" xmi:id="_ptFkuZ1zEeezc51Z9r3mzw" elementId="org.eclipse.ui.window.customizePerspective" contributorURI="platform:/plugin/org.eclipse.platform" label="%command.name.customize" command="_ptFkup1zEeezc51Z9r3mzw"/>
@@ -2994,6 +3020,24 @@
   <commands xmi:id="_qJTmoJ1zEeezc51Z9r3mzw" elementId="AUTOGEN:::org.python.pydev.debug.VariableViewActions/org.python.pydev.debug.variableViewActions.ShowCapitalizedReferences" commandName="Show Capitalized References" description="Show Capitalized References (those beginning with an uppercase letter)" category="_ptoXS51zEeezc51Z9r3mzw"/>
   <commands xmi:id="_qJTmoZ1zEeezc51Z9r3mzw" elementId="AUTOGEN:::org.python.pydev.debug.VariableViewActions/org.python.pydev.debug.variableViewActions.ShowAllUppercaseReferences" commandName="Show All Uppercase References" description="Show All Uppercase References (those with no lower case letters)" category="_ptoXS51zEeezc51Z9r3mzw"/>
   <commands xmi:id="_qJUNsJ1zEeezc51Z9r3mzw" elementId="AUTOGEN:::org.python.pydev.debug.VariableViewActions/org.python.pydev.debug.variableViewActions.ShowFunctionAndModulsReferences" commandName="Show Function and Module References" description="Show Function and Module References" category="_ptoXS51zEeezc51Z9r3mzw"/>
+  <commands xmi:id="_OYfMIKjZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.texCorrectIndentation" commandName="Correct Indentation" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_OYfMIajZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.texCollapse" commandName="Collapse foldings" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_OYfMIqjZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.preview" commandName="Preview document" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_OYfzMKjZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.texWordWrap" commandName="Wrap text" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_OYfzMajZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.texUncomment" commandName="Uncomment" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_OYfzMqjZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.setAsMainFile" commandName="Set As Main File" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_OYfzM6jZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.partialBuild" commandName="Partial Build" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_OYfzNKjZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.openDeclaration" commandName="Open Declaration" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_OYfzNajZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.saveAsTemplate" commandName="Save As Template" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_OYfzNqjZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.texHardLineWrap" commandName="Correct Line Wrap" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_OYfzN6jZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.wordCount" commandName="Word Count" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_OYfzOKjZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.texComment" commandName="Comment" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_OYfzOajZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.spellUncheck" commandName="Clear Spelling Errors" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_OYfzOqjZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.texUncollapse" commandName="Uncollapse foldings" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_OYfzO6jZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.GotoMatchingBracket" commandName="Go to matching bracket" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_OYfzPKjZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.commands.spellCheck" commandName="Check Spelling" category="_OYelEajZEeeUTMhIQmW8-Q"/>
+  <commands xmi:id="_O0cvYKjZEeeUTMhIQmW8-Q" elementId="AUTOGEN:::net.sourceforge.texlipse.editor.editorContribution/net.sourceforge.texlipse.action1" commandName="Run BibTeX on next build" category="_ptoXS51zEeezc51Z9r3mzw"/>
+  <commands xmi:id="_O0cvYajZEeeUTMhIQmW8-Q" elementId="AUTOGEN:::net.sourceforge.texlipse.editor.editorContribution/net.sourceforge.texlipse.actions.ForceRebuild" commandName="Force build" category="_ptoXS51zEeezc51Z9r3mzw"/>
   <addons xmi:id="_ptFku51zEeezc51Z9r3mzw" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_ptFkvJ1zEeezc51Z9r3mzw" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_ptFkvZ1zEeezc51Z9r3mzw" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -3005,7 +3049,7 @@
   <addons xmi:id="_ptFkw51zEeezc51Z9r3mzw" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_ptFkxJ1zEeezc51Z9r3mzw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_ptM5cJ1zEeezc51Z9r3mzw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_OVrFoadNEee1zJy6xOSrhA" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_ptnwMJ1zEeezc51Z9r3mzw" elementId="org.eclipse.ui.category.edit" name="Edit"/>
   <categories xmi:id="_ptnwMZ1zEeezc51Z9r3mzw" elementId="org.eclipse.mylyn.wikitext.ui.editor.category" name="WikiText Markup Editing Commands" description="commands for editing lightweight markup"/>
@@ -3060,4 +3104,5 @@
   <categories xmi:id="_ptoXZp1zEeezc51Z9r3mzw" elementId="org.eclipse.gef.category.view" name="View" description="View"/>
   <categories xmi:id="_ptoXZ51zEeezc51Z9r3mzw" elementId="org.eclipse.jdt.ui.category.source" name="Source" description="Java Source Actions"/>
   <categories xmi:id="_ptoXaJ1zEeezc51Z9r3mzw" elementId="org.eclipse.pde.runtime.spy.commands.category" name="Spy"/>
+  <categories xmi:id="_OYelEajZEeeUTMhIQmW8-Q" elementId="net.sourceforge.texlipse.latexEditingCategory" name="Texlipse" description="Latex Editing"/>
 </application:Application>
