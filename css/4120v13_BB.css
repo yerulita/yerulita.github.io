@@ -674,7 +674,13 @@ section h4.section-subsubheading {
  	text-align: justify;
  	font-size: 15px;
   }
- 
+
+section p.section-text-centered {
+ 	text-align: center;
+ 	font-size: 15px;
+  }
+  
+  
 @media (min-width: 768px) {
   section {
     padding-top:60px;
@@ -710,7 +716,12 @@ section h4.section-subsubheading {
 }
  section p.section-text {
  	font-size: 16px;
- 	 padding-bottom: 20px;
+ 	 padding-bottom: 10px;
+  }
+ section p.section-text-centered {
+/*  	text-align: centered; */
+  	font-size: 16px;
+  	 	 padding-bottom: 10px;
   }
 }
 
