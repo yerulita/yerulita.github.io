@@ -532,6 +532,7 @@ header .intro-text .intro-heading {
 /* header ends */
 
 /* section begins */
+.page-header { border-bottom:none; }
 
  section {
   padding: 40px 0;
@@ -593,7 +594,7 @@ section h4.section-subsubheading {
   }
 }
 
-.page-header { border-bottom:none; }
+
 
 /* .example-content-aligned{ */
 /* 	margin: auto; */
